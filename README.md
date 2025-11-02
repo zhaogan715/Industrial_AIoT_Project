@@ -35,7 +35,23 @@ Markdown
 
 本项目的架构设计清晰地分离了后端服务、边缘计算和硬件感知，核心`main_project.py`采用三线程模型解耦了GUI与I/O任务。
 ```
-+-- Industrial_AIoT_Project/ | +-- backend_services/ | | | +-- docker-compose.yml (PC - 一键启动InfluxDB和Grafana) | +-- edge_node/ | | | +-- main_project.py (RPI - 核心主程序 / 三线程架构) | +-- mnist_model_quantized.tflite (RPI - AI量化模型) | +-- hardware/ | | | +-- arduino_dht11_json.ino (Arduino - 传感器JSON输出固件) | +-- media/ | | | +-- demo.gif (项目演示视频) | +-- model_training/ | | | +-- train_mnist_model.py (PC - 原始AI模型训练脚本) | +-- utilities/ | | | +-- data_simulator.py (PC - Grafana后端测试工具) | +-- .gitignore (Git 忽略文件) +-- LICENSE (MIT 许可证) +-- README.md (本项目说明文档)
+Industrial_AIot_Project/
+├── backend_services/ # PC - 一键启动 InfluxDB 和 Grafana
+│ └── docker-compose.yml
+├── edge_node/
+│ ├── main_project.py # RPI - 核心主程序 / 三线程架构
+│ ├── mnist_model_quantized.tflite # RPI - AI量化模型
+│ └── hardware/
+│ └── arduino_dht11_json.ino # Arduino - 传感器 JSON 输出固件
+├── media/
+│ └── demo.gif # 项目演示视频
+├── model_training/
+│ └── train_mnist_model.py # PC - 原始AI模型训练脚本
+├── utilities/
+│ └── data_simulator.py # PC - Grafana 后端测试工具
+├── .gitignore # Git 忽略文件
+├── LICENSE # MIT 许可证
+└── README.md # 本项目说明文档
 ```
 ---
 
@@ -133,3 +149,4 @@ Markdown
 
 
 本项目采用 MIT 许可证。
+
