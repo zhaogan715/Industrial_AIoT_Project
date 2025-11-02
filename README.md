@@ -1,0 +1,2 @@
+# Industrial_AIoT_Project
+基础工业ai质检与数字孪生系统
