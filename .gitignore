@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+tflite-env/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# macOS cache
+.DS_Store
