@@ -1,4 +1,4 @@
-Markdown
+<img width="659" height="415" alt="image" src="https://github.com/user-attachments/assets/c3cba3da-1d52-40a7-9624-7e94480760fe" />Markdown
 
 # 工业AI质检与数字孪生系统 v1.0
 
@@ -16,7 +16,7 @@ Markdown
 ###  演示视频 (Demo)
 
 
-![Demo GIF Placeholder](httpsGIPHY_LINK_HERE)
+【工业ai质检与数字孪生系统演示——GitHub/zhaogan-哔哩哔哩】 https://b23.tv/94bufkt
 
 ---
 
@@ -161,6 +161,7 @@ Markdown
 
 
 本项目采用 MIT 许可证。
+
 
 
 
